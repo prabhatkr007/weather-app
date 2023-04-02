@@ -19,7 +19,7 @@ body
     margin-top: 100px;
     padding-left:50px ;
     padding-right: 25px;
-    backdrop-filter: blur(10px) saturate(80%);
+    backdrop-filter: blur(13px) saturate(80%);
     border-radius: 20px;
 }
 .module{
@@ -61,6 +61,7 @@ header a{
 border: 7px solid white;
 height: 350px;
 width: 350px;
+margin-left: 60px;
 
 }
 input
