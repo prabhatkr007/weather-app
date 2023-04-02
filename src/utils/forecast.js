@@ -15,6 +15,8 @@ const forecast = (latitude, longitude, callback) => {
       const description = body.weather[0].description;
       const humidity = body.main.humidity;
       const windSpeed = body.wind.speed;
+      
+  
       callback(
         undefined,
         `${description}. It is currently ${temperature} degrees out. It feels like ${feelsLike} degrees out. The humidity is ${humidity}% and the wind speed is ${windSpeed}m/s.`

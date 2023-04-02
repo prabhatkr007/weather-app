@@ -7,14 +7,26 @@ body
     padding: 0 16px;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    background-image:url('/img/weat.jpg') ;
+    min-height: 500px;
+    background-image:url('https://p4.wallpaperbetter.com/wallpaper/524/791/832/abstract-sky-clouds-weather-wallpaper-preview.jpg') ;
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: cover;	
+    
+   
 }
-.main-content{
+.card{
+    margin-top: 100px;
+    padding-left:50px ;
+    padding-right: 25px;
+    backdrop-filter: blur(10px) saturate(80%);
+    border-radius: 20px;
+}
+.module{
    flex-grow: 1;
+  
+   
+ 
 }
 
 footer{
@@ -31,11 +43,16 @@ header{
 h1{
     font-size: 64px;
     margin-bottom: 16px;
+    color: whitesmoke;
+    
+
 }
 header a{
-    color: #888888;
+    background-color: aliceblue;
     margin-right: 16px;
-    text-decoration: none;
+    text-decoration:none;
+    padding: 6px;
+    border-radius: 5px;
 
 }
 .portrait{
@@ -62,3 +79,18 @@ padding: 8px;
 
 }
 
+#message-1{
+    
+    color: whitesmoke;
+    /* text-shadow: 0 5px 0 white; */
+    
+  
+}
+
+#message-2{
+    color: whitesmoke;
+    
+    /* text-shadow: 0 1px 0 white; */
+    
+    
+}

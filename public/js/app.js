@@ -23,6 +23,8 @@ response.json().then((data)=>
         messageOne.textContent=data.error
     }
     else{
+        document.body.style.backgroundImage =
+      "url('https://source.unsplash.com/1600x900/?" + location + "')";
         messageOne.textContent=data.location
         messageTwo.textContent=data.forecast
    
