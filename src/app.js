@@ -38,7 +38,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        helpText: 'If you are not getting response please put proper ladmark with detail and retry',
+        helpText: 'If you are not getting response please put proper ladmark with detail , then retry !',
         title: 'Help',
         college:'',
         name: 'Prabhat'
