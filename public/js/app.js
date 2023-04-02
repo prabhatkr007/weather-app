@@ -11,6 +11,8 @@ weatherForm.addEventListener('submit',(e)=>
 {
     e.preventDefault()
     const location=search.value
+    document.body.style.backgroundImage =
+    "url('https://source.unsplash.com/1600x900/?" + location + "')";
     messageOne.textContent='Loading.....'
     messageTwo.textContent=''
     fetch('/weather?address='+location ).then((response)=>
@@ -23,8 +25,7 @@ response.json().then((data)=>
         messageOne.textContent=data.error
     }
     else{
-        document.body.style.backgroundImage =
-      "url('https://source.unsplash.com/1600x900/?" + location + "')";
+      
         messageOne.textContent=data.location
         messageTwo.textContent=data.forecast
    
